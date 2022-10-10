@@ -47,5 +47,30 @@ header{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 20px;
     box-shadow: 5px 5px 7px gray;
+ }
+ div{
+    display: grid;
+    grid-template-columns: 300PX 300PX 300PX;
+    grid-gap: 40px;
+    margin-left: 60px;
+ }
+ img{
+
+    height: 200px;
+    width: 300px;
+    border-radius: 3px;
+ }
+ footer{
+    background: gray;
+    text-align: center;
+    color: rgb(183, 241, 21);
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 2px;
+    
+
  }
